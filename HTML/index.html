@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed Social</title>
+    <link rel="stylesheet" href="/CSS/index.css">
+</head>
+<body>
+    <!-- Navbar (Topo) -->
+    <nav>
+        <img src="/Imagens/list.png" id="more" alt="Menu">
+        <h1>Seu feed</h1>
+        <img src="/Imagens/engrenagem.png" id="conf" alt="Configurações">
+    </nav>
+
+    <!-- Menu Lateral (Esquerda) -->
+    <div id="menu-lateral" class="menu-escondido">
+        <div class="menu-header">
+            <img src="/Imagens/user.png" alt="Foto de Perfil" class="foto-perfil">
+            <h3>@seu_usuario</h3>
+        </div>
+        <ul>
+            <li><a href="#" class="effect">Início</a></li>
+            <li><a href="/HTML/perfil.html" class="effect">Perfil</a></li>
+            <li><a href="#" class="effect">Fórum</a></li>
+            <li><a href="#" class="effect">Ajustes</a></li>
+            <li><a href="#" class="effect">Sobre</a></li>
+            <li><a href="/HTML/login.html" class="effect">Sair</a></li>
+        </ul>
+        <button id="fechar-menu">✕ Fechar</button>
+    </div>
+
+    <!-- Feed Central -->
+    <main>
+
+        <div class="add-post-block" id="add">
+            <img src="/Imagens/add.png" alt="Usuário" class="add-post">
+            <div class="conteudo">
+                <h2>Criar postagem </h2>
+            </div>
+        </div>
+        <div class="post">
+            <img src="/Imagens/user.png" alt="Usuário" class="foto-post">
+            <div class="conteudo">
+                <h4>@Just_Vittz <span>· 2h atrás</span></h4>
+                <p>Meu chefe é simplesmente insuportavel, ele nós da só 40 minutos de intervalo e ainda fica no nosso pé pra que a gente termine logo e volte a trabalhar. Chega a ser esgotante ter que trabalhar incansavelmente e aturar isso.</p>
+                <br><hr><br>
+                <p>&ensp;&ensp;@Mr_Kai: Não é possivel, na nossa lei é dito que o minimo é<br>
+                &ensp;&ensp;1h completa, ele ja ta errado nisso, sem falar que ele já apressa<br>
+                &ensp;&ensp;o que não tem, aí é sacanagem. <span>40m atrás</span></p>
+                
+                
+            </div>
+        </div>
+        <div class="post">
+            <img src="/Imagens/user.png" alt="Usuário" class="foto-post">
+            <div class="conteudo">
+                <h4>@The_Sudno <span>· 5h atrás</span></h4>
+                <p>É possível arrumar um bom emprego, sem nenhuma furada por Recife? Recebi umas propostas, mas eu não estou muito seguro com elas, alguem recomenda um app ou site?</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="/Imagens/user.png" alt="Usuário" class="foto-post">
+            <div class="conteudo">
+                <h4>@07_liss <span>· 2d atrás</span></h4>
+                <p>Um salário de 1.800 pra um dev júnior é bom?</p>
+                <br><hr><br>
+                <p>&ensp;&ensp;@Just_Vittz: Tá um pouco do minimo da média do Google que é 2k<br>
+                &ensp;&ensp;por mês, mas para um comeco, eu acho que não esta tão ruim.<br>
+                &ensp;&ensp;<span>1d atrás</span></p>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="/Imagens/user.png" alt="Usuário" class="foto-post">
+            <div class="conteudo">
+                <h4>@Victory_007 <span>· 32m atrás</span></h4>
+                <p>Trabalhar no setor rural mas na parte de administração é uma boa? Eu vejo grandes distribuidores e fazendas com todos aqueles campos, maquínas e funcíonarios, deve ser difícil manter aquilo organizado.</p>
+                <br><hr><br>
+                <p>&ensp;&ensp;@Norman_Jr: Rapaz, eu tenho um tio que trabalha no interior em<br>
+                &ensp;&ensp;uma plantação de café, e ele diz que realmente, a produção é<br>
+                &ensp;&ensp;bastante grande dependendo da epóca, e eu imagino que distribuir<br>
+                &ensp;&ensp;e planejar tudo aquilo para obter o minimo de prejuizo possível deve<br>
+                &ensp;&ensp;ser bem dificil mesmo, mas pode pagar bem.&ensp;<span>5m atrás</span></p>
+            </div>
+
+            
+        </div>
+
+        <div class="post">
+            <img src="/Imagens/user.png" alt="Usuário" class="foto-post">
+            <div class="conteudo">
+                <h4>@Lady_Juh <span>· 7h atrás</span></h4>
+                <p>Gente, o mercado de trabalho judicial é bom para se manter estável financeiramente com apenas formação em direito por EaD?</p>
+                <br><hr><br>
+                <p>&ensp;&ensp;@07_liss: Com EaD talvez se torne meio dificl achar alguem que<br>
+                &ensp;&ensp;contrate voce só tendo ele, mas a média salarial de um advogado<br>
+                &ensp;&ensp;em inicio de carreira é ate boa, podendo ser de 3.200 ate 4.500,<br>
+                &ensp;&ensp;depedendo da empresa. Possa ser que se torne dificil tambem por<br>
+                &ensp;&ensp;direito ser uma area complexa, mas com a experiencia isso se<br>
+                &ensp;&ensp;resolve.&ensp;<span>5h atrás</span></p>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="/Back-End/index.js"></script>
+</body>
+</html>
